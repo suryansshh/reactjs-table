@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+    background-color: #2E3440;
+    padding-top: 100px;
+}
+
+table.main-table {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.main-table a {
+    text-decoration: none;
+    color: unset;
+}
+
+.main-table td:hover {
+    background-color: rgb(38, 41, 60);
+    color: rgb(199, 199, 199);
+    transition: ease-in-out 0.2s;
+}
+
+.main-table th {
+    color: #afafb0;
+}
+
+.main-table th, .main-table td{
+    padding: 10px;
+    width: 150px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.lightgrey {
+    background-color: #4C566A;
+}
+
+.darkgrey {
+    background-color: #434C5E;
+}
+
+.dark {
+    background-color: #3B4252;
+}
+
+table tr td, table tr th {
+    text-align: center!important;
+}
